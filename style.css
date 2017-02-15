@@ -1,0 +1,46 @@
+/*
+Theme Name: WP Bootstrap
+Theme URI: http://dev.alannarisse.com
+Description: A bootstrap theme customized for the Alannarisse.com artist portfolio
+Author: Alanna Risse
+Author URI: http://alannarisse.com/
+Version: 1.0
+Tags: responsive, bootstrap, portfolio
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
+body { 
+     padding-top: 60px; 
+     padding-bottom: 40px; 
+}
+ 
+@font-face {
+    font-family: 'acremedium';
+    src: url('bootstrap/fonts/acre-medium-webfont.eot');
+    src: url('bootstrap/fonts/acre-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bootstrap/fonts/acre-medium-webfont.woff2') format('woff2'),
+         url('bootstrap/fonts/acre-medium-webfont.woff') format('woff'),
+         url('bootstrap/fonts/acre-medium-webfont.ttf') format('truetype'),
+         url('bootstrap/fonts/acre-medium-webfont.svg#acremedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+h1, h2, h3 {
+  font-family: 'acremedium';
+}
+
+.container h1 a, .container h1 a:hover, .container h1 a:active,
+.container h2 a, .container h2 a:hover, .container h2 a:active {
+	color:#990000;
+}
+
+

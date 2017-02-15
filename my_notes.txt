@@ -1,0 +1,6 @@
+Read Me about treehouse tutorial
+
+
+http://blog.teamtreehouse.com/responsive-wordpress-bootstrap-theme-tutorial
+
+This is being developed at dev.alannarisse.com
